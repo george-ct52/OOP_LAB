@@ -1,14 +1,18 @@
 import java.util.*;
 class student 
-{
+{ 
+    String name;
+    int rno;
+    int marks[]=new int[5];
+
     Scanner sc = new Scanner(System.in);
     void read()
     {
         System.out.println("Enter name of the student :");
-        String name = sc.nextLine();
+        name = sc.nextLine();
         System.out.println("Enter roll number of the student :");
-        int rno=sc.nextInt();
-        int marks[]=new int[5];
+        rno=sc.nextInt();
+        
         System.out.println("Enter marks of 5 subjects :");
         for(int i=0;i<5;i++)
         {
@@ -22,7 +26,7 @@ class student
         System.out.println("Roll no of the student :"+rno);
         for(int i=0;i<5;i++)
         {
-            System.out.println("Mark of subject"+(i+1)+":"+marks[i]);
+            System.out.println("Mark of subject "+(i+1)+":"+marks[i]);
         }
     }
 }
