@@ -1,5 +1,5 @@
 import java.util.*;
-class trace_matrixe
+class trace_matrix
 {
     public static void main (String args[])
     {

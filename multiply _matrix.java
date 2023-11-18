@@ -10,7 +10,7 @@ class add_matrixes
         
         int arr[][]= new int[rows][col];
         int arr2[][]= new int[rows][col];
-        int sum[][]= new int[rows][col];
+        int pdt[][]= new int[rows][col];
 
         System.out.println("Enter the  values of first array :");
         for(int i=0;i<rows;i++)
@@ -31,6 +31,7 @@ class add_matrixes
             }
           
         }
+
         
 	
 	
