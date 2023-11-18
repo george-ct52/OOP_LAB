@@ -19,7 +19,7 @@ public class freq_string {
             }
         }
         
-        System.out.println("Character is present "+count+" aspartimes .");
+        System.out.println("Character is present "+count+" times .");
         
 
     }
