@@ -21,7 +21,7 @@ class areas
     {
         Scanner sc = new Scanner(System.in);
         areas a=new areas();
-        System.out.println("Choose one : \n 1.Area of Circle \n 2.Area of Rectangle \n 3.Area of Triangle ");
+        System.out.println("Choose one : \n 1.Area of Circle \n 2.Area of Triangle \n 3.Area of Rectangle");
         int ch=sc.nextInt();
         if (ch==1)
         {
