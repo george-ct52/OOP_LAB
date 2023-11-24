@@ -31,7 +31,7 @@ class areas
         }
         else if(ch==2)
         {
-            System.out.println("Enter length and breadth of the triangle :");
+            System.out.println("Enter base and height of the triangle :");
             double base =sc.nextDouble();
             double height=sc.nextDouble();
             a.area(base,height);
